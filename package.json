@@ -1,5 +1,6 @@
 {
     "name": "@awuxtron/eslint-config",
+    "version": "1.0.0",
     "description": "My personal ESLint configuration",
     "license": "MIT",
     "keywords": [
