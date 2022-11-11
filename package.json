@@ -1,0 +1,51 @@
+{
+    "name": "@awuxtron/eslint-config",
+    "description": "My personal ESLint configuration",
+    "license": "MIT",
+    "keywords": [
+        "eslint",
+        "eslint-config"
+    ],
+    "homepage": "https://github.com/awuxtron/eslint-config#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/awuxtron/eslint-config.git"
+    },
+    "bugs": {
+        "url": "https://github.com/awuxtron/eslint-config/issues",
+        "email": "awuxtron@gmail.com"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Diep Dang <awuxtron@gmail.com> (https://awuxtron.dev)",
+    "funding": {
+        "type": "paypal",
+        "url": "https://paypal.me/awuxtron"
+    },
+    "main": "./index.js",
+    "sideEffects": false,
+    "files": [
+        "*.js"
+    ],
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.41.0",
+        "@typescript-eslint/parser": "^5.41.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-import-resolver-typescript": "^3.5.2",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-tailwindcss": "^3.6.2",
+        "eslint-plugin-unicorn": "^44.0.2",
+        "eslint-plugin-vue": "^9.6.0",
+        "vue-eslint-parser": "^9.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.26.0"
+    },
+    "peerDependencies": {
+        "eslint": ">=8.0"
+    }
+}
