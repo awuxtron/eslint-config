@@ -10,6 +10,7 @@ module.exports = {
                 },
             },
         ],
+        'unicorn/no-array-reduce': 'off',
         'unicorn/no-await-expression-member': 'off',
         'unicorn/new-for-builtins': 'off',
         'unicorn/no-empty-file': 'off',
